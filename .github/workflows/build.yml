@@ -24,7 +24,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v6
         with:
-          images: ghcr.io/gamax42/caddy-ovh
+          images: ghcr.io/gamax42/caddy-ovh-tailscale
           tags: |
             type=semver,pattern={{version}}
             type=semver,pattern={{major}}.{{minor}}
